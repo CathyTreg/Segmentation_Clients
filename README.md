@@ -1,22 +1,19 @@
 # Segmentation_Clients
 Créer une segmentation Marketing des clients d’un site de e-commerce et assurer sa maintenance - Projet réalisé en mai 2024 dans le cadre du parcours de formation DataScientist d'OpenClassrooms.
 
-Contexte : 
--	Olist est une entreprise brésilienne qui propose une solution de vente sur les marketplaces en ligne.
--	Olist fait appel à des consultants en renfort de leur équipe Data. Le premier cas d’usage Data Science consiste à réaliser une segmentation des clients e-commerce qui sera utilisée au quotidien par les équipes Marketing dans le cadre des campagnes de communication.
--	La base de données anonymisée fournie par Olist contient des informations sur l’historique des commandes, les produits achetés, les commentaires de satisfaction, et la localisation des clients de janvier 2017 à août 2018.
+Contexte : Olist, une entreprise brésilienne spécialisée dans la vente sur les marketplaces, souhaite optimiser ses campagnes marketing grâce à une segmentation des clients e-commerce. 
 
-Tâche :
--	Comprendre les différents types d’utilisateurs grâce à leur comportement et à leurs données personnelles.
+Objectif : Comprendre les différents profils de clients en fonction de leur comportement et de leurs données personnelles, afin de guider les actions marketing.
 
-Actions : 
--	Regrouper des clients de profils similaires avec des méthodes de clustering non supervisées.
--	Fournir à l’équipe Marketing une description actionnable de la segmentation et de sa logique sous-jacente pour une utilisation optimale.
--	Analyser la stabilité des segments au cours du temps pour donner une recommandation de fréquence à laquelle la segmentation doit être mise à jour pour rester pertinente.
+Tâches :
+-	Clustering des clients : appliquer des méthodes de clustering non supervisées pour identifier des segments de clients présentant des comportements similaires.
+-	Création d’une segmentation actionnable : fournir à l’équipe Marketing d’une description claire des segments, avec des recommandations pratiques pour une utilisation optimale.
+-	Analyse de la stabilité des segments : évaluer la stabilité des segments au fil du temps et proposer une fréquence optimale de mise à jour de la segmentation.
 
 Résultats : 
--	Fournir aux équipes Marketing des segments de clients avec une description claire qui pourront être sollicités de manière différenciée lors des campagnes de communication.
--	Proposer un contrat de maintenance pour assurer l’évolution des segments dans le temps.
+-	6 segments de clients ont été identifiés, accompagnés d’une description claire permettant de cibler chaque groupe avec des messages marketing différenciés, optimisant ainsi l’efficacité des campagnes.
+-	Un contrat de maintenance de 2 ans a été proposé pour assurer l'évolution des segments. Une solution automatisée de mise à jour des segments basée sur l’évolution des métriques (comme l’ARI et les dispersions) serait idéale pour maintenir la pertinence de la segmentation.
 
 Environnement de travail : Jupyter Notebook - Python (via Anaconda), librairies Numpy – Pandas – Matplotlib – Seaborn – Scikit-learn – Folium
+
 
